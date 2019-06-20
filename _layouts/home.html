@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home o-flexy">
+  {% for plant in site.plants %}
+  <div class="o-col-4">
+    <img src="{{site.baseurl}}/assets/images/{{plant.img}}" alt="{{plant.alt}}">
+    <h2>{{ plant.image }} </h2>
+    <p class="tx-center tx-300 u-mrg-l-2">{{ plant.name }}</p>
+    <span>Thermometer</span>
+  </div>
+  {% endfor %}
+</div>
