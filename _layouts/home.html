@@ -7,7 +7,8 @@ layout: default
   <div class="plant-card o-col-4 c-card">
     <img src="{{site.baseurl}}/assets/images/{{plant.img}}" alt="{{plant.alt}}">
     <p class="tx-center tx-300 u-mrg-l-2">{{ plant.name }}</p>
-    <span>Thermometer</span>
+    
+    <div class="meter-shadow"><div class="meter"></div></div>
   </div>
   {% endfor %}
 </div>

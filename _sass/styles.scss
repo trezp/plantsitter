@@ -2,6 +2,38 @@ nav label {
   display: inline;
 }
 
+.meter {
+  height: 15px;
+  background: aqua;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-radius: 5px;
+}
+
+.meter-shadow {
+  @extend .meter;
+  background: lightgray; 
+}
+
+.full {
+  background: green;
+  width: 100%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.half {
+  width: 50%;
+  background: orange;
+}
+
+.quarter {
+  width: 25%; 
+  background: red;
+}
+
 .plant-card {
   padding: 10px;
   margin: 5px;
